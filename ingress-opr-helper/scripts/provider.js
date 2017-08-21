@@ -1,0 +1,4 @@
+OPRHelperProviders = [
+	'amap',
+	'baidu',
+]

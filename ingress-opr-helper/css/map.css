@@ -1,0 +1,39 @@
+#opr-helper-map-container,
+#opr-helepr-config-position-config-helper-and-css-sucks {
+	position: relative;
+}
+
+#opr-helper-map {
+	height: 300px;
+}
+
+#opr-helper-panorama {
+	height: 300px;
+}
+
+#opr-helper-config {
+	position: absolute;
+	padding: 3px 5px 3px 5px;
+	top: 3px;
+	left: 3px;
+	background: #ffffff;
+	opacity: 0.8;
+	color: #000;
+	font-size: 12px;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+
+#opr-helper-config label {
+	margin: 0;
+}
+
+#opr-helper-config select {
+	display: inline;
+}
+
+#opr-helper-config input[type="checkbox"] {
+	margin: 0 2px 0 2px;
+	vertical-align: middle;
+}
+

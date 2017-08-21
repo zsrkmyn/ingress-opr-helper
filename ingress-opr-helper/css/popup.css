@@ -1,0 +1,41 @@
+body {
+	min-width: 200px;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.menu {
+	margin: 5px;
+}
+
+.group {
+	margin: 5px;
+}
+
+.group > section {
+	font-family: sans-serif;
+	font-size: 13px;
+	margin: 10px 7px 10px 7px;
+}
+
+.group > section > input[type="checkbox"] {
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+}
+
+.separator {
+	margin: 5px;
+	border-style: solid;
+	border-width: 1px;
+}

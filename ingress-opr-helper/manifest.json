@@ -1,0 +1,33 @@
+{
+"manifest_version": 2,
+"name": "Ingress OPR Helper",
+"version": "0.1",
+"description": "A helper for ingress portal recon system",
+"icons": {"128": "images/icon128.png"},
+"permissions": ["storage"],
+"background": {
+	"scripts": ["scripts/bg.js"]
+},
+"content_security_policy": "script-src 'self' https://webapi.amap.com; object-src 'self'",
+"web_accessible_resources": [
+	"scripts/map.js",
+	"scripts/utils.js",
+	"scripts/amap.js",
+	"scripts/baidu.js"
+],
+"browser_action": {
+	"default_title": "",
+	"default_icon": "images/icon128.png",
+	"default_popup": "popup.html"
+},
+"content_scripts": [
+	{
+		"matches": ["https://opr.ingress.com/recon"],
+		"js": [
+			"scripts/main.js",
+			"scripts/provider.js"
+		],
+		"css": ["css/map.css"]
+	}
+]
+}
